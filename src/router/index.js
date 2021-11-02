@@ -35,6 +35,11 @@ const routes = [
       path: 'cart',
       name: 'cart',
       component: () => import('../views/kcgl/cart.vue'),
+     },
+     {
+      path: 'wdPC',
+      name: 'wdPC',
+      component: () => import('../views/wdPC/wdPC.vue'),
      }
     ]
   }
